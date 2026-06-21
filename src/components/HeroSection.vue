@@ -8,7 +8,7 @@
             v-for="(pixel, ci) in row"
             :key="ci"
             class="pixel"
-            :class="pixel"
+            :class="pixel === '.' ? 'e' : pixel.toLowerCase()"
           ></div>
         </div>
       </div>
@@ -75,19 +75,19 @@ function typeLoop() {
 }
 
 const avatar = [
-  '     XXXXX     '.split(''),
-  '    XXYYYXX    '.split(''),
-  '   XXXXXXXXX   '.split(''),
-  '  XXXYYYXXXXX  '.split(''),
-  '  XXXXXXXXXXX  '.split(''),
-  '  XXYYYXXYYXX  '.split(''),
-  '  XX YXX YXX   '.split(''),
-  '  XXXXXXXXXX   '.split(''),
-  '   XX XX XX    '.split(''),
-  '   XXXXXXXXX   '.split(''),
-  '   XXXXXXXXX   '.split(''),
-  '  XX      XX   '.split(''),
-  '  X        X   '.split(''),
+  '.....XXXXX.....'.split(''),
+  '....XXYYYXX....'.split(''),
+  '...XXXXXXXXX...'.split(''),
+  '..XXXYYYXXXXX..'.split(''),
+  '..XXXXXXXXXXX..'.split(''),
+  '..XXYYYXXYYXX..'.split(''),
+  '..XX.YXX.YXX...'.split(''),
+  '..XXXXXXXXXX...'.split(''),
+  '...XX.XX.XX....'.split(''),
+  '...XXXXXXXXX...'.split(''),
+  '...XXXXXXXXX...'.split(''),
+  '..XX......XX...'.split(''),
+  '..X........X...'.split(''),
 ]
 
 onMounted(() => {
@@ -130,7 +130,7 @@ onMounted(() => {
 
 .pixel-avatar {
   margin: 0 auto 2rem;
-  width: 180px;
+  width: 220px;
 }
 
 .pixel-row {
@@ -143,9 +143,9 @@ onMounted(() => {
   height: 14px;
 }
 
-.pixel.X { background: #ffcc00; }
-.pixel.Y { background: #ff6b6b; }
-.pixel.space { background: transparent; }
+.pixel.x { background: #ffcc00; }
+.pixel.y { background: #ff6b6b; }
+.pixel.e { background: transparent; }
 
 h1 {
   font-size: 2.5rem;
@@ -250,7 +250,7 @@ h1 {
     padding: 5rem 1.5rem 7rem;
   }
   .pixel-avatar {
-    width: 140px;
+    width: 165px;
   }
   .pixel {
     width: 11px;
@@ -285,7 +285,7 @@ h1 {
     padding: 4rem 1rem 6rem;
   }
   .pixel-avatar {
-    width: 100px;
+    width: 120px;
   }
   .pixel {
     width: 8px;
@@ -329,7 +329,7 @@ h1 {
     min-height: 90vh;
   }
   .pixel-avatar {
-    width: 72px;
+    width: 90px;
   }
   .pixel {
     width: 6px;

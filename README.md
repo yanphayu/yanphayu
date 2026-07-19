@@ -1,99 +1,130 @@
-<h1 align="center">Hi, I'm Yan Phayu <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30"></h1>
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=Hi+there%2C+I'm+Yan+Phayu;Welcome+to+my+profile+🚀" alt="Typing SVG" />
+
+<img src="https://komarev.com/ghpvc/?username=yanphayu&label=Profile%20Views&color=36b5f4&style=for-the-badge" alt="yanphayu" />
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
+
+</div>
+
+---
+
+<h2 align="center">🧑‍💻 About Me</h2>
+
+<table align="center">
+<tr>
+<td width="50%" align="center">
+
+- 🎓 **Student** passionate about Web Development
+- 🌱 Currently building with modern frameworks
+- 💡 Turning ideas into clean, functional code
+
+</td>
+<td width="50%" align="center">
+
+- 🔭 Exploring new technologies daily
+- 🎯 Goal: Become a skilled Full-Stack Developer
+- 📫 Ask me about anything coding related!
+
+</td>
+</tr>
+</table>
+
+---
+
+<h2 align="center">⚡ Languages I Speak</h2>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yanphayu&label=Profile%20Views&color=0e75b6&style=flat" alt="yanphayu" />
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+
 </p>
 
 ---
 
-## 🙋‍♂️ About Me
-
-- 🎓 Student passionate about **Web Development**
-- 🌱 Currently learning and building with modern web technologies
-- 💡 I love turning ideas into clean, functional websites
-- 🔭 Always exploring new frameworks and tools
-
----
-
-## 🛠️ Languages & Technologies
+<h2 align="center">🛠️ My Tech Stack</h2>
 
 <p align="center">
 
-| | |
-|:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg#fff" alt="JavaScript" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/typescript.svg#fff" alt="TypeScript" width="50" height="50" /> |
-| **JavaScript** | **TypeScript** |
-| <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/php.svg#fff" alt="PHP" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cplusplus.svg#fff" alt="C++" width="50" height="50" /> |
-| **PHP** | **C++** |
-| <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg#fff" alt="HTML5" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg#fff" alt="CSS3" width="50" height="50" /> |
-| **HTML5** | **CSS3** |
-| <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mysql.svg#fff" alt="MySQL" width="50" height="50" /> | |
-| **MySQL** | |
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" />
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 
 </p>
 
 ---
 
-## 🧰 Frameworks & Tools
+<h2 align="center">📊 My GitHub Stats</h2>
 
 <p align="center">
 
-| | |
-|:---:|:---:|
-| <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg#fff" alt="React" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/vuedotjs.svg#fff" alt="Vue.js" width="50" height="50" /> |
-| **React** | **Vue.js** |
-| <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/laravel.svg#fff" alt="Laravel" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg#fff" alt="Tailwind CSS" width="50" height="50" /> |
-| **Laravel** | **Tailwind CSS** |
-| <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/bootstrap.svg#fff" alt="Bootstrap" width="50" height="50" /> | <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg#fff" alt="Git" width="50" height="50" /> |
-| **Bootstrap** | **Git** |
+<a href="https://github.com/yanphayu">
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=yanphayu&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
+</a>
+<a href="https://github.com/yanphayu">
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yanphayu&layout=compact&theme=tokyonight&hide_border=true" />
+</a>
 
+</p>
+
+<p align="center">
+<a href="https://github.com/yanphayu">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=yanphayu&theme=tokyonight&hide_border=true" />
+</a>
 </p>
 
 ---
 
-## 📊 GitHub Stats
+<h2 align="center">🏆 Trophies</h2>
 
 <p align="center">
-  <a href="https://github.com/yanphayu">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yanphayu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  </a>
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=yanphayu&theme=tokyonight&hide_border=true" />
+<a href="https://github.com/yanphayu">
+<img src="https://github-profile-trophy.vercel.app/?username=yanphayu&theme=tokyonight&no-frame=true&no-bg=true&column=7" />
+</a>
 </p>
 
 ---
 
-## 🏆 GitHub Trophies
+<h2 align="center">🐍 Contribution Snake</h2>
 
 <p align="center">
-  <a href="https://github.com/yanphayu">
-    <img src="https://github-profile-trophy.vercel.app/?username=yanphayu&theme=tokyonight&no-frame=true&no-bg=true&column=7" />
-  </a>
+<img src="https://raw.githubusercontent.com/yanphayu/yanphayu/output/github-contribution-grid-snake-dark.svg" width="600" />
 </p>
 
 ---
 
-## 🐍 Contribution Snake
+<h2 align="center">📬 Connect With Me</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yanphayu/yanphayu/output/github-contribution-grid-snake-dark.svg" width="600" alt="snake animation" />
-</p>
 
----
+<a href="https://github.com/yanphayu">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-## 📫 Let's Connect
-
-<p align="center">
-  <a href="https://github.com/yanphayu">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg#fff" alt="GitHub" width="40" height="40" />
-  </a>
 </p>
 
 ---
 
 <div align="center">
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/lines/gradient.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/assets/gradients/aqua-gradient.png)
 
-**Thanks for visiting! Drop a ⭐ if you like my profile!**
+![Thanks for visiting!](https://forthebadge.com/images/badges/powered-by-electricity.svg)
 
 </div>

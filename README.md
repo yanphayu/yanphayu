@@ -6,37 +6,6 @@
 
 ---
 
-<div align="center">
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
-
-</div>
-
----
-
-<h2 align="center">About Me</h2>
-
-<table align="center">
-<tr>
-<td width="50%" align="center">
-
-- **Student** passionate about Web Development
-- Currently building with modern frameworks
-- Turning ideas into clean, functional code
-
-</td>
-<td width="50%" align="center">
-
-- Exploring new technologies daily
-- Goal: Become a skilled Full-Stack Developer
-- Ask me about anything coding related!
-
-</td>
-</tr>
-</table>
-
----
-
 <h2 align="center">Languages I Speak</h2>
 
 <p align="center">

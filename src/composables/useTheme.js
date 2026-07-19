@@ -1,0 +1,191 @@
+import { ref, watchEffect } from 'vue'
+
+const themes = {
+  cyber: {
+    label: 'Cyber',
+    hex: { primary: '#00f0ff', secondary: '#ff00aa', tertiary: '#a855f7' },
+    colors: {
+      '--neon-primary': '#00f0ff',
+      '--neon-secondary': '#ff00aa',
+      '--neon-tertiary': '#a855f7',
+      '--bg': '#050508',
+      '--bg-card': '#0c0c14',
+      '--text': '#9898b0',
+      '--text-heading': '#ffffff',
+      '--border': '#1a1a2e',
+      '--glow-primary': '0 0 20px rgba(0, 240, 255, 0.4), 0 0 60px rgba(0, 240, 255, 0.15)',
+      '--glow-secondary': '0 0 20px rgba(255, 0, 170, 0.4), 0 0 60px rgba(255, 0, 170, 0.15)',
+      '--orb-1': 'rgba(0, 240, 255, 0.12)',
+      '--orb-2': 'rgba(255, 0, 170, 0.1)',
+      '--orb-3': 'rgba(168, 85, 247, 0.08)',
+      '--mesh-1': 'rgba(0, 240, 255, 0.1)',
+      '--mesh-2': 'rgba(255, 0, 170, 0.1)',
+      '--mesh-3': 'rgba(168, 85, 247, 0.08)',
+      '--scanline-opacity': '0',
+      '--noise-opacity': '0',
+      '--grid-opacity': '0.025',
+      '--particle-line-opacity': '0.15',
+      '--color-scheme': 'dark',
+    },
+  },
+  matrix: {
+    label: 'Matrix',
+    hex: { primary: '#39ff14', secondary: '#00ff88', tertiary: '#22cc44' },
+    colors: {
+      '--neon-primary': '#39ff14',
+      '--neon-secondary': '#00ff88',
+      '--neon-tertiary': '#22cc44',
+      '--bg': '#050508',
+      '--bg-card': '#0c0c14',
+      '--text': '#9898b0',
+      '--text-heading': '#ffffff',
+      '--border': '#1a1a2e',
+      '--glow-primary': '0 0 20px rgba(57, 255, 20, 0.4), 0 0 60px rgba(57, 255, 20, 0.15)',
+      '--glow-secondary': '0 0 20px rgba(0, 255, 136, 0.4), 0 0 60px rgba(0, 255, 136, 0.15)',
+      '--orb-1': 'rgba(57, 255, 20, 0.1)',
+      '--orb-2': 'rgba(0, 255, 136, 0.08)',
+      '--orb-3': 'rgba(34, 204, 68, 0.06)',
+      '--mesh-1': 'rgba(57, 255, 20, 0.08)',
+      '--mesh-2': 'rgba(0, 255, 136, 0.08)',
+      '--mesh-3': 'rgba(34, 204, 68, 0.06)',
+      '--scanline-opacity': '0',
+      '--noise-opacity': '0',
+      '--grid-opacity': '0.025',
+      '--particle-line-opacity': '0.15',
+      '--color-scheme': 'dark',
+    },
+  },
+  sunset: {
+    label: 'Sunset',
+    hex: { primary: '#ff6b35', secondary: '#ff0055', tertiary: '#ffbe0b' },
+    colors: {
+      '--neon-primary': '#ff6b35',
+      '--neon-secondary': '#ff0055',
+      '--neon-tertiary': '#ffbe0b',
+      '--bg': '#050508',
+      '--bg-card': '#0c0c14',
+      '--text': '#9898b0',
+      '--text-heading': '#ffffff',
+      '--border': '#1a1a2e',
+      '--glow-primary': '0 0 20px rgba(255, 107, 53, 0.4), 0 0 60px rgba(255, 107, 53, 0.15)',
+      '--glow-secondary': '0 0 20px rgba(255, 0, 85, 0.4), 0 0 60px rgba(255, 0, 85, 0.15)',
+      '--orb-1': 'rgba(255, 107, 53, 0.12)',
+      '--orb-2': 'rgba(255, 0, 85, 0.1)',
+      '--orb-3': 'rgba(255, 190, 11, 0.08)',
+      '--mesh-1': 'rgba(255, 107, 53, 0.1)',
+      '--mesh-2': 'rgba(255, 0, 85, 0.1)',
+      '--mesh-3': 'rgba(255, 190, 11, 0.08)',
+      '--scanline-opacity': '0',
+      '--noise-opacity': '0',
+      '--grid-opacity': '0.025',
+      '--particle-line-opacity': '0.15',
+      '--color-scheme': 'dark',
+    },
+  },
+  purple: {
+    label: 'Purple',
+    hex: { primary: '#c084fc', secondary: '#e879f9', tertiary: '#818cf8' },
+    colors: {
+      '--neon-primary': '#c084fc',
+      '--neon-secondary': '#e879f9',
+      '--neon-tertiary': '#818cf8',
+      '--bg': '#050508',
+      '--bg-card': '#0c0c14',
+      '--text': '#9898b0',
+      '--text-heading': '#ffffff',
+      '--border': '#1a1a2e',
+      '--glow-primary': '0 0 20px rgba(192, 132, 252, 0.4), 0 0 60px rgba(192, 132, 252, 0.15)',
+      '--glow-secondary': '0 0 20px rgba(232, 121, 249, 0.4), 0 0 60px rgba(232, 121, 249, 0.15)',
+      '--orb-1': 'rgba(192, 132, 252, 0.12)',
+      '--orb-2': 'rgba(232, 121, 249, 0.1)',
+      '--orb-3': 'rgba(129, 140, 248, 0.08)',
+      '--mesh-1': 'rgba(192, 132, 252, 0.1)',
+      '--mesh-2': 'rgba(232, 121, 249, 0.1)',
+      '--mesh-3': 'rgba(129, 140, 248, 0.08)',
+      '--scanline-opacity': '0',
+      '--noise-opacity': '0',
+      '--grid-opacity': '0.025',
+      '--particle-line-opacity': '0.15',
+      '--color-scheme': 'dark',
+    },
+  },
+  ice: {
+    label: 'Ice',
+    hex: { primary: '#38bdf8', secondary: '#818cf8', tertiary: '#22d3ee' },
+    colors: {
+      '--neon-primary': '#38bdf8',
+      '--neon-secondary': '#818cf8',
+      '--neon-tertiary': '#22d3ee',
+      '--bg': '#050508',
+      '--bg-card': '#0c0c14',
+      '--text': '#9898b0',
+      '--text-heading': '#ffffff',
+      '--border': '#1a1a2e',
+      '--glow-primary': '0 0 20px rgba(56, 189, 248, 0.4), 0 0 60px rgba(56, 189, 248, 0.15)',
+      '--glow-secondary': '0 0 20px rgba(129, 140, 248, 0.4), 0 0 60px rgba(129, 140, 248, 0.15)',
+      '--orb-1': 'rgba(56, 189, 248, 0.12)',
+      '--orb-2': 'rgba(129, 140, 248, 0.1)',
+      '--orb-3': 'rgba(34, 211, 238, 0.08)',
+      '--mesh-1': 'rgba(56, 189, 248, 0.1)',
+      '--mesh-2': 'rgba(129, 140, 248, 0.1)',
+      '--mesh-3': 'rgba(34, 211, 238, 0.08)',
+      '--scanline-opacity': '0',
+      '--noise-opacity': '0',
+      '--grid-opacity': '0.025',
+      '--particle-line-opacity': '0.15',
+      '--color-scheme': 'dark',
+    },
+  },
+  light: {
+    label: 'Light',
+    hex: { primary: '#2563eb', secondary: '#7c3aed', tertiary: '#0891b2' },
+    colors: {
+      '--neon-primary': '#2563eb',
+      '--neon-secondary': '#7c3aed',
+      '--neon-tertiary': '#0891b2',
+      '--bg': '#f8f9fc',
+      '--bg-card': '#ffffff',
+      '--text': '#64748b',
+      '--text-heading': '#0f172a',
+      '--border': '#e2e8f0',
+      '--glow-primary': '0 0 20px rgba(37, 99, 235, 0.15), 0 0 60px rgba(37, 99, 235, 0.05)',
+      '--glow-secondary': '0 0 20px rgba(124, 58, 237, 0.15), 0 0 60px rgba(124, 58, 237, 0.05)',
+      '--orb-1': 'rgba(37, 99, 235, 0.08)',
+      '--orb-2': 'rgba(124, 58, 237, 0.06)',
+      '--orb-3': 'rgba(8, 145, 178, 0.05)',
+      '--mesh-1': 'rgba(37, 99, 235, 0.06)',
+      '--mesh-2': 'rgba(124, 58, 237, 0.06)',
+      '--mesh-3': 'rgba(8, 145, 178, 0.04)',
+      '--scanline-opacity': '0',
+      '--noise-opacity': '0',
+      '--grid-opacity': '0.03',
+      '--particle-line-opacity': '0.08',
+      '--color-scheme': 'light',
+    },
+  },
+}
+
+const currentTheme = ref(localStorage.getItem('portfolio-theme') || 'cyber')
+
+function applyTheme(name) {
+  const theme = themes[name]
+  if (!theme) return
+  const root = document.documentElement
+  Object.entries(theme.colors).forEach(([key, value]) => {
+    root.style.setProperty(key, value)
+  })
+  localStorage.setItem('portfolio-theme', name)
+}
+
+watchEffect(() => {
+  applyTheme(currentTheme.value)
+})
+
+export function useTheme() {
+  return {
+    themes,
+    currentTheme,
+    themeList: Object.entries(themes).map(([key, val]) => ({ id: key, label: val.label })),
+    getThemeHex: () => themes[currentTheme.value]?.hex || themes.cyber.hex,
+  }
+}

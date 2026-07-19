@@ -68,21 +68,4 @@
 
 ---
 
-<h2 align="center">My GitHub Stats</h2>
-
-<p align="center">
-
-<a href="https://github.com/yanphayu">
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=yanphayu&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-</a>
-<a href="https://github.com/yanphayu">
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yanphayu&layout=compact&theme=tokyonight&hide_border=true" />
-</a>
-
-</p>
-
-<p align="center">
-<a href="https://github.com/yanphayu">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yanphayu&theme=tokyonight&hide_border=true" />
-</a>
 </p>

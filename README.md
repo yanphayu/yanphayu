@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=Hi+there%2C+I'm+Yan+Phayu;Welcome+to+my+profile+🚀" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=100&lines=Hi+there%2C+I'm+Yan+Phayu;Welcome+to+my+profile" alt="Typing SVG" />
 
 <img src="https://komarev.com/ghpvc/?username=yanphayu&label=Profile%20Views&color=36b5f4&style=for-the-badge" alt="yanphayu" />
 
@@ -16,22 +16,22 @@
 
 ---
 
-<h2 align="center">🧑‍💻 About Me</h2>
+<h2 align="center">About Me</h2>
 
 <table align="center">
 <tr>
 <td width="50%" align="center">
 
-- 🎓 **Student** passionate about Web Development
-- 🌱 Currently building with modern frameworks
-- 💡 Turning ideas into clean, functional code
+- **Student** passionate about Web Development
+- Currently building with modern frameworks
+- Turning ideas into clean, functional code
 
 </td>
 <td width="50%" align="center">
 
-- 🔭 Exploring new technologies daily
-- 🎯 Goal: Become a skilled Full-Stack Developer
-- 📫 Ask me about anything coding related!
+- Exploring new technologies daily
+- Goal: Become a skilled Full-Stack Developer
+- Ask me about anything coding related!
 
 </td>
 </tr>
@@ -39,7 +39,7 @@
 
 ---
 
-<h2 align="center">⚡ Languages I Speak</h2>
+<h2 align="center">Languages I Speak</h2>
 
 <p align="center">
 
@@ -55,7 +55,7 @@
 
 ---
 
-<h2 align="center">🛠️ My Tech Stack</h2>
+<h2 align="center">My Tech Stack</h2>
 
 <p align="center">
 
@@ -70,7 +70,7 @@
 
 ---
 
-<h2 align="center">📊 My GitHub Stats</h2>
+<h2 align="center">My GitHub Stats</h2>
 
 <p align="center">
 
@@ -91,7 +91,7 @@
 
 ---
 
-<h2 align="center">🏆 Trophies</h2>
+<h2 align="center">Trophies</h2>
 
 <p align="center">
 <a href="https://github.com/yanphayu">
@@ -101,7 +101,7 @@
 
 ---
 
-<h2 align="center">🐍 Contribution Snake</h2>
+<h2 align="center">Contribution Snake</h2>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/yanphayu/yanphayu/output/github-contribution-grid-snake-dark.svg" width="600" />
@@ -109,7 +109,7 @@
 
 ---
 
-<h2 align="center">📬 Connect With Me</h2>
+<h2 align="center">Connect With Me</h2>
 
 <p align="center">
 
